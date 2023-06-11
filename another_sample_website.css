@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/7f/e7/74/7fe774bbacce09f00cb5b2e3cbc48db3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orange;
+    height: 30vh;
+}
+
+.navbar {
+    height: 15vh;
+    text-transform: uppercase;
+
+    position: fixed;
+    justify-content: center;
+}
+
+.navbar nav ul li a {
+    margin: 5vh;
+    padding: 2vh;
+    text-decoration: none;
+    color: orange;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: orange;
+    font-family: cursive;
+    text-decoration: wavy;
+    position: relative;
+
+}
+
+.about {
+    display: inline-block;
+    height: 10vh;
+    text-align: justify;
+    width: 40vw;
+    font-size: 3vh;
+    top: 10vh;
+    font-family: cursive;
+}
+
+.about a {
+    text-decoration: none;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 5vh;
+    text-transform: capitalize;
+    position: relative;
+    left: 10vh;
+    top: 20vh;
+    font-family: cursive;
+}
+
+.projects {
+    display: inline-block;
+    position: relative;
+    right: 60vh;
+    top: 100vh;
+    font-family: cursive;
+}
+
+.projects img {
+    width: 20vh;
+}
+
+.projects ul li {
+    height: 10vh;
+}
+
+.projects h2 {
+    color: black;
+    font-family: cursive;
+}
+
+.internships img {
+    width: 30vh;
+}
+
+.internships {
+    display: inline-block;
+    position: relative;
+    left: 120vh;
+    top: 60vh;
+    font-family: cursive;
+
+}
+
+.internships ul li {
+    height: 10vh;
+}
+
+.internships h2 {
+    color: black;
+    font-family: cursive;
+}
+
+.contacts img {
+    width: 30vh;
+}
+
+.contacts {
+    display: inline-block;
+    position: relative;
+    right: 50vh;
+    top: 95vh;
+    font-family: cursive;
+}
+
+.contacts ul li {
+    height: 3vh;
+
+}
+
+.contacts ul li a {
+    text-decoration: none;
+    color: orange;
+    text-decoration: underline;
+}
+
+.contacts h2 {
+    color: black;
+    font-family: cursive;
+}
+
+footer {
+    position: relative;
+    top: 100vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
